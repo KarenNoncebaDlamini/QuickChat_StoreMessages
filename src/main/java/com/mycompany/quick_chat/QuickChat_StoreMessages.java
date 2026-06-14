@@ -120,7 +120,7 @@ public class QuickChat_StoreMessages {
         input.close();
     }
 
-    public static void  {
+    public static void displayStoredMessages() {
 
         System.out.println("\nSTORED MESSAGES");
 
@@ -136,7 +136,7 @@ public class QuickChat_StoreMessages {
         }
     }
 
-    public static void displayLongestStoredMessage() {
+    public static void () {
 
         String longest = "";
 
