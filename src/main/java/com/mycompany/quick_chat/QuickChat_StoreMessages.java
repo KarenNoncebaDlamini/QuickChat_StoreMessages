@@ -175,7 +175,7 @@ public class QuickChat_StoreMessages {
         }
     }
 
-    public static void (String recipient) {
+    public static void searchRecipient(String recipient) {
 
         boolean found = false;
 
@@ -194,7 +194,7 @@ public class QuickChat_StoreMessages {
         }
     }
 
-    public static void deleteMessage(String hash) {
+    public static void (String hash) {
 
         boolean found = false;
 
