@@ -62,7 +62,15 @@ public class QuickChat_StoreMessages {
 
         do {
 
-           
+            System.out.println("===== STORE MESSAGES MENU =====");
+            System.out.println("1. Display Stored Messages");
+            System.out.println("2. Display Longest Stored Message");
+            System.out.println("3. Search Message ID");
+            System.out.println("4. Search Recipient");
+            System.out.println("5. Delete Message");
+            System.out.println("6. Display Report");
+            System.out.println("7. Exit");
+
             System.out.print("Choose option: ");
             option = input.nextInt();
             input.nextLine();
