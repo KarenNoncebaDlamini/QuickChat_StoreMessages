@@ -136,7 +136,7 @@ public class QuickChat_StoreMessages {
         }
     }
 
-    public static void () {
+    public static void displayLongestStoredMessage() {
 
         String longest = "";
 
@@ -155,7 +155,7 @@ public class QuickChat_StoreMessages {
         System.out.println(longest);
     }
 
-    public static void searchMessageID(String id) {
+    public static void (String id) {
 
         boolean found = false;
 
