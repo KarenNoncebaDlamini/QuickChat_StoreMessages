@@ -71,53 +71,9 @@ public class QuickChat_StoreMessages {
             System.out.println("6. Display Report");
             System.out.println("7. Exit");
 
-            System.out.print("Choose option: ");
-            option = input.nextInt();
-            input.nextLine();
+         
 
-            switch(option) {
-
-                case 1:
-                    displayStoredMessages();
-                    break;
-
-                case 2:
-                    displayLongestStoredMessage();
-                    break;
-
-                case 3:
-                    System.out.print("Enter Message ID: ");
-                    String id = input.nextLine();
-                    searchMessageID(id);
-                    break;
-
-                case 4:
-                    System.out.print("Enter Recipient Number: ");
-                    String recipient = input.nextLine();
-                    searchRecipient(recipient);
-                    break;
-
-                case 5:
-                    System.out.print("Enter Message Hash: ");
-                    String hash = input.nextLine();
-                    deleteMessage(hash);
-                    break;
-
-                case 6:
-                        displayReport();
-                    break;
-
-                case 7:
-                    System.out.println("Goodbye");
-                    break;
-
-                default:
-                    System.out.println("Invalid option.");
-            }
-
-        } while(option != 7);
-
-        input.close();
+          
     }
 
     public static void displayStoredMessages() {
