@@ -213,7 +213,7 @@ public class QuickChat_StoreMessages {
         }
     }
     
-   public static void() {
+   public static void displayReport() {
 
         System.out.println("===== MESSAGE REPORT =====");
 
