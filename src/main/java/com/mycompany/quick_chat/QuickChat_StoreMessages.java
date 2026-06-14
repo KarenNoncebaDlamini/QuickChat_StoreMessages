@@ -11,7 +11,47 @@ import java.util.Scanner;
  * @author Student
  */
 public class QuickChat_StoreMessages {
-       
+        static String[] messageIDs = {
+        "1000000001",
+        "1000000002",
+        "1000000003",
+        "1000000004",
+        "1000000005"
+    };
+
+    static String[] recipients = {
+        "+27834557896",
+        "+27838884567",
+        "+27834484567",
+        "0838884567",
+        "+27838884567"
+    };
+
+    static String[] messages = {
+        "Did you get the cake?",
+        "Where are you? You are late! I have asked you to be on time.",
+        "Yohoooo, I am at your gate.",
+        "It is dinner time !",
+        "Ok, I am leaving without you."
+    };
+
+    static String[] messageHashes = {
+        "HA001",
+        "HA002",
+        "HA003",
+        "HA004",
+        "HA005"
+    };
+
+    static String[] status = {
+        "Sent",
+        "Stored",
+        "Disregard",
+        "Sent",
+        "Stored"
+    };
+
+    static int totalMessages = 5;
 
 
     public static void main(String[] args) {
