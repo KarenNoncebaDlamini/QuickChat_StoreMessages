@@ -227,5 +227,4 @@ public class QuickChat_StoreMessages {
             System.out.println("Status: " + status[i]);
         }
     }
-   
 }
