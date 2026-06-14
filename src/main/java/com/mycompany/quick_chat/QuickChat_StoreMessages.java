@@ -155,7 +155,7 @@ public class QuickChat_StoreMessages {
         System.out.println(longest);
     }
 
-    public static void (String id) {
+    public static void searchMessageID(String id) {
 
         boolean found = false;
 
@@ -175,7 +175,7 @@ public class QuickChat_StoreMessages {
         }
     }
 
-    public static void searchRecipient(String recipient) {
+    public static void (String recipient) {
 
         boolean found = false;
 
