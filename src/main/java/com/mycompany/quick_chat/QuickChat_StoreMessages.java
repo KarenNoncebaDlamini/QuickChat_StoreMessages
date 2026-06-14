@@ -194,7 +194,7 @@ public class QuickChat_StoreMessages {
         }
     }
 
-    public static void (String hash) {
+    public static void deleteMessage(String hash) {
 
         boolean found = false;
 
@@ -213,7 +213,7 @@ public class QuickChat_StoreMessages {
         }
     }
     
-   public static void displayReport() {
+   public static void() {
 
         System.out.println("===== MESSAGE REPORT =====");
 
