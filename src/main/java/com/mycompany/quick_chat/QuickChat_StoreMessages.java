@@ -117,10 +117,10 @@ public class QuickChat_StoreMessages {
 
         } while(option != 7);
 
-       
+        input.close();
     }
 
-    public static void displayStoredMessages() {
+    public static void  {
 
         System.out.println("\nSTORED MESSAGES");
 
